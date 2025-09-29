@@ -22,7 +22,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex items-center justify-center">
       <TodoProvider>
-        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg w-96 text-center">
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg w-[800px] max-w-4xl text-center">
           {/* 헤더 영역 */}
           <div className="flex justify-between items-center mb-4">
             <h1 className="text-2xl font-bold text-gray-900 dark:text-white">YONG TODO</h1>
