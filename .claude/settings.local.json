@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm create:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(grep:*)",
+      "Bash(while read item)",
+      "Bash(do cp -r \"$item\" ..)",
+      "Bash(done)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(git reset:*)",
+      "Bash(git rm:*)",
+      "Read(//c/Users/USIS/Desktop/**)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
